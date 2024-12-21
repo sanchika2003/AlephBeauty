@@ -1,0 +1,749 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-image: url('https://alephbeauty.com/cdn/shop/files/aleph-summer-bundles-475_2560x.jpg?v=1699219894');
+    background-size: cover;
+    background-repeat: no-repeat;   
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width:100%;
+    
+}
+#nav{
+    height:60px;
+    width:100%;
+    background-color: #fff;   
+}
+#logo{
+    height: 5%;
+    width: 9%;
+    position: absolute;
+    text-align: center;
+    top: 15px;
+    left:49%;
+}
+#nav a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+#navpart-1{
+    display: flex;
+    text-align: center;
+    justify-content: flex-start;
+    align-items: center;
+    gap:40px;
+    position: absolute;
+    top:15px;
+    left:5%;
+}
+#navpart-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap:40px;
+    position: absolute;
+    top:15px;
+    left:70%;
+}
+#head1{
+    font-size: 55px;
+    padding-top: 28%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #fff;
+}
+h5{
+    text-align: center;
+    font-size: 18px;
+    color: #fff;
+
+}
+#click{
+height:40px;
+width: 13%;
+text-align: center;
+position: absolute;
+top:85%;
+left: 45%;
+text-transform: capitalize;
+border-color: white;
+}
+#part2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+img{
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    top:40%;
+    left:2%;
+}
+#right{
+    height: 100%;
+    width: 50%;
+    background-color: #efece6;
+    position: absolute;
+    left:50%;
+    top:40%;
+}
+#head2{
+    font-size:50px;
+    position: absolute;
+    left:20%;
+    color: rgb(10, 10, 10);
+    top:10%;
+    text-transform: capitalize;
+    font-weight: 300;
+}
+#head3{
+    top:40%;
+    font-size:40px;
+    position: absolute;
+    left:45%;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 300;
+
+}
+#head4{
+    top:55%;
+    font-size:18px;
+    position: absolute;
+    left:20%;
+    color: black;
+    text-transform: capitalize;
+    font-weight: 500;
+    text-align: left;
+    width: 70%;
+}
+#click1{
+    height:40px;
+width: 30%;
+text-align: center;
+position: absolute;
+top:88%;
+left: 40%;
+text-transform: uppercase;
+border-color: white;
+}
+#part3{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#head5{
+    position: absolute;
+    font-size: 55px;
+    top:80%;
+    font-weight: 100;
+    left: 26%;
+}
+#head6{
+    position: absolute;
+    font-size: 20px;
+    top:93%;
+    color: #000;
+    left: 28%;
+    font-weight: 200;
+}
+#click2{
+    position: absolute;
+    top:740px;
+    left: 44%;
+    width: 14%;
+    height: 8%;
+    text-transform: uppercase;
+    border-color: #fff;
+    background-color: #efece6;
+}
+#pic1{
+    height: 28%;
+    width: 15%;
+    left:40%;
+    position: absolute;
+    top:50%;
+}
+#pic2{
+    left:5%;
+    top:85%;
+    position: absolute;
+    height: 35%;
+    width: 12%;
+}
+#pic3{
+    left:78%;
+    top:70%;
+    position: absolute;
+    height: 37%;
+    width: 25%;
+}
+#pic5{
+    left:23%;
+    top:800px;
+    position: absolute;
+    height: 38%;
+    width: 18%;
+}
+#pic4{
+    left:65%;
+    top:800px;
+    position: absolute;
+    height: 28%;
+    width: 10%;
+}
+#part4{
+    height: 100%;
+    width: 100%;
+    position: relative;    
+}
+.ri-check-line{
+
+    color: #d61010;
+font-size: 25px;
+scale: 2;
+}
+#fourth{
+    background-color: #efece6;
+    height: 75%;
+    width: 100%;
+    position: absolute;
+    top:80%;
+}
+#head7{
+    text-transform: capitalize;
+    position: absolute;
+    top:30%;
+    left:20%;
+    font-size: 40px;
+    font-weight: 300;
+}
+#fourth img{
+    height: 5%;
+    width: 6%;
+    position: absolute;
+    top:70%;
+    opacity: 0.5;
+}
+#pic6{
+   left:30%;
+}
+#pic7{
+    left:40%;
+}
+#pic8{
+    left:50%;
+}
+#pic9{
+    left:60%;
+}
+#pic10{
+    left:70%;
+}
+#part5{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#head8{
+    font-size: 60px;
+    left:2%;
+    position: absolute;
+    top:70%;
+    text-transform: capitalize;
+    font-weight: 100;
+}
+.sixth:hover .pic32{
+    visibility: visible;
+}
+.sixth1:hover .pic34{
+    visibility: visible;
+}
+.sixth2:hover .pic33{
+    visibility: visible;
+}
+.sixth{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sixth1{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+.sixth2{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#click4{
+    position: absolute;
+    top:70%;
+    left: 80%;
+    width: 14%;
+    height: 8%;
+    text-transform: uppercase;
+    border-color: #fff;
+    background-color: #efece6;
+}
+#daye{
+    height:500px;
+    width: 436px;
+    position: absolute;
+    left:15px;
+    top:0px;
+    background-color: #efece6;
+}
+
+#pic12{
+    position: absolute;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index:10;
+    visibility: visible;
+}
+#pic12:hover{
+    opacity: 0;
+}
+.pic32{
+    position: absolute;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+.pic33{
+    position: absolute;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+.pic34{
+    position: absolute;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    visibility: hidden;
+}
+#centre{
+    height:500px;
+    width: 440px;
+    position: absolute;
+    left:910px;
+    background-color: #efece6;
+    top:0px;
+}
+#baye{
+    height:500px;
+    width: 442px;
+    background-color: #efece6;
+    position: absolute;
+    left:460px;
+    top:0px;
+}
+
+#pic13{
+    position: absolute;
+    top:0%;
+    height: 100%;
+    width: 100%;
+    z-index: 100;
+}
+#pic13:hover{
+    opacity: 0;
+}
+
+#headings{
+    color: #000;
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    top:80%;
+    left:15%;
+    text-transform: capitalize;
+    gap:40px;
+}
+h4{
+    font-size: 20px;
+    font-weight: 200;
+}
+#pic11:hover{
+    opacity: 0;
+}
+#pic11{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top:6%;
+    left:20px;
+    z-index: 100;   
+}
+#part7{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#boxes{
+position: relative;
+display: flex;
+}
+#box1{
+    height: 400px;
+    width: 700px;
+    background-color: rgb(85, 8, 230);
+   position: absolute;
+    top:700px;
+}
+#pic32{
+    height: 400px;
+    width: 350px;
+    z-index: 100;
+   position: absolute;
+    top:700px;
+}
+#head99{
+    font-size: 50px;
+    position: absolute;
+    font-weight: 200;
+    top:90%;
+    left:30%;
+}
+#part8{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#head100{
+    font-size: 50px;
+    font-weight: 200;
+    position: absolute;
+    top:80%;
+}
+i{
+    font-weight: 500;
+}
+#eight img{
+    height: 60%;
+    width: 25%;
+    position: absolute;
+    top:82%;
+}
+#pic16{
+    left:75%;
+}
+#pic15{
+    left: 50%;
+}
+#pic14{
+    left:25%;
+}
+ #eight #head11 {
+    position: absolute;
+    font-size: 15px;
+    top:930px;
+    width: 22%;
+    left: 25%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head11 span{
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+#eight #head12 {
+    position: absolute;
+    font-size: 15px;
+    top:930px;
+    width: 22%;
+    left: 50%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head12 span{
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+#eight #head13 {
+    position: absolute;
+    font-size: 15px;
+    top:930px;
+    width: 22%;
+    left: 75%;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#head13 span{
+    font-weight: 500;
+    letter-spacing: 5px;
+}
+#part9{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#pic17{
+position: absolute;
+top:90%;
+width: 100%;
+}
+#head14{
+    position: absolute;
+    top:700px;
+    font-size: 30px;
+    width: 40%;
+    left: 8%;
+    font-weight: 300;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+button{
+    height: 50px;
+    width: 15%;
+    position: absolute;
+    top:900px;
+    left: 8%;
+    text-transform: uppercase;
+    font-weight: 500;
+    border-color: #fff;
+    border:none;
+    letter-spacing: 3px;
+}
+#part10{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#head15{
+    position: absolute;
+    font-size: 90px;
+    top:110vh;
+    left: 33%;
+    font-weight: 100;
+}
+#pic18{
+    position: absolute;
+    height: 100%;
+    width: 35%;
+    top:130vh;
+    left: 34%;
+}
+#head16{
+    position: absolute;
+    left:73%;
+    top:180vh;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 18px;
+}
+#head16 span{
+    letter-spacing: 3px;
+
+}
+#pic19{
+    position: absolute;
+    top:115vh;
+    left:48%;
+    scale: 1;
+}
+#pic20{
+    position: absolute;
+    top:140vh;
+    left:10%;
+    scale: 0.4;
+}
+#click3{
+    position: absolute;
+    height: 10%;
+    text-transform: uppercase;
+    width: 16%;
+    top:190vh;
+    left: 72%;
+    background-color: #efece6;
+
+}
+#head17{
+    position: absolute;
+    left:13%;
+    top:200vh;
+    line-height: 2;
+    font-weight: 500;
+    font-size: 18px;
+}
+#head17 span{
+    letter-spacing: 3px;
+}
+#head18{
+    position: absolute;
+    top:230vh;
+    left:45%;
+    font-size: 36px;
+}
+#part11{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#eleven{
+    overflow-x: auto;
+    white-space: nowrap;
+    background-color:transparent;
+    /*position: absolute;
+    top:1400px;*/
+}
+#eleven::-webkit-scrollbar-{
+    /*display: none;*/
+    border-radius: 20px;
+    border: 5px;
+    display: none;
+
+}
+#eleven img{
+    height: 50%;
+    width: 20%;
+    position: absolute;
+    top:180vh;
+    display: inline-block;
+    animation-name:anime ;
+    animation-duration: 5s;
+    margin-right: 20px;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes anime {
+    from{
+        transform: translateX(0);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+    
+}
+#pic21{
+    left:20%;
+}
+#pic22{
+    left:40%;
+}
+#pic23{
+    left:60%;
+}
+#pic24{
+    left:80%;
+}
+#pic25{
+    left:100%;
+}
+#pic25{
+    left:1300px;
+}
+#pic26{
+    left:1560px;
+}
+#pic27{
+    left:1800px;
+}
+#pic28{
+    left:2000px;
+}
+#head19{
+    position: absolute;
+    top:170vh;
+    left:35%;
+    font-size: 50px;
+    font-weight: 200;
+}
+#part12{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    gap: 60px;
+}
+#l{
+    height: 80%;
+    width: 50%;
+    background-color: #efece6;
+    position: absolute;
+    top:140vh;
+}
+#r{
+    height: 80%;
+    width: 50%;
+    background: #e4e1dc;
+    position: absolute;
+    left:50%;
+    top:140vh;
+    display:inline-block;
+}
+#head20{
+    position: absolute;
+    top:20%;
+    font-size: 30px;
+    width: 80%;
+    left: 10%;
+    font-weight: 300;
+    line-height: 1.5;
+}
+#head20 span{
+letter-spacing: 5px;
+font-size: 20px;
+}
+#part12 a{
+    text-decoration: none;
+    color:black;
+    position: absolute;
+    top:50%;
+    display: flex;
+    justify-content: space-between;
+    left:10%;
+}
+#pic31{
+    position: absolute;
+    height: 30%;
+    width: 70%;
+    top:65%;
+    left:10%;
+}
+#links a{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    margin-top: 30px;
+    color: #000;
+    
+}
+#links1 h5{
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ margin-top: -9vh;
+ text-transform: uppercase;
+ line-height: 0.9;
+ margin-left: 25vw;
+ font-weight: 200;
+}
+    
+
+
+
+
+
+
